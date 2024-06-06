@@ -1,0 +1,91 @@
+.skills{
+  margin: 0 auto;
+  margin-top: 30px;
+  text-align: center;
+
+  background-color: rgb(1, 9, 24, 0.8);
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0.25,0.25));
+
+  border-radius: 10px;
+  width: 80%;
+  padding: 50px 10px;
+}
+
+.skills h1{
+  font-size: 60px;
+}
+
+.skills p{
+  font-size: 30px;
+}
+
+.skills img{
+  height: 150px;
+  margin: 40px 0 0 60px;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0.25,0.25));
+  transform: scale(1);
+  transition: 0.9s
+}
+
+.skills img:hover{
+  transform: scale(1.1);
+  transition: 0.9s
+}
+
+
+@media(max-width: 1425px) {
+  .skills h1{
+    font-size: 50px;
+  }
+  
+  .skills p{
+    font-size: 20px;
+    margin-top: 20px;
+    }
+  .skills img{
+    height: 100px;
+    margin: 20px 15px 0;
+  }
+}
+
+@media(max-width: 950px) {
+  .skills{
+    width: 70%;
+    padding: 20px 10px;
+  }
+  
+  .skills h1{
+    font-size: 50px;
+  }
+  
+  .skills p{
+    font-size: 20px;
+    margin-top: 20px;
+    }
+  .skills img{
+    height: 60px;
+    margin: 20px 15px;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .skills{
+    padding: 20px 10px;
+  }
+  
+  .skills h1{
+    font-size: 30px;
+  }
+  
+  .skills p{
+    font-size: 15px;
+    margin-top: 20px;
+    }
+  .skills img{
+    height: 40px;
+    margin: 20px 6px;
+  }
+
+}

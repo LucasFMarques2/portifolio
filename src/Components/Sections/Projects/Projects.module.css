@@ -1,0 +1,42 @@
+.projects{
+  text-align: justify;
+  margin-top: 60px;
+  padding: 30px 100px;
+}
+
+.projects h1{
+  font-size: 45px;
+}
+
+@media(max-width: 1425px) {
+  
+
+  .projects h1{
+    font-size: 35px;
+  }
+}
+
+@media(max-width: 950px) {
+  .projects {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .projects h1 {
+    font-size: 25px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .projects {
+    text-align: center;
+    margin-top: 0;
+  }
+
+  .projects h1 {
+    font-size: 25px;
+  }
+}
+
+

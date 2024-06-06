@@ -1,0 +1,29 @@
+.button button {
+    padding: 15px 50px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: none;
+  
+    background-color: #74fac0;
+    color: #21335F;
+    margin-left: 15px;
+  }
+  
+  .button button:hover{
+    background-color: #10f290;
+    cursor: pointer;
+    color: #6e63dd;
+    transition: 0.7s;
+  }
+
+  @media(max-width: 814px){
+    .button button{
+      padding: 12px 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .button button{
+      padding: 12px 15px;
+    }
+  }

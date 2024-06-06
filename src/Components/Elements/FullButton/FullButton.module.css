@@ -1,0 +1,32 @@
+.btn button {
+  padding: 15px 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+
+  background-color: #042666;
+  color: #ffffff;
+  margin-left: 15px;
+  transition: 0.7s;
+  font-size: 15px;
+}
+
+.btn button:hover {
+  background-color: #010f29;
+  cursor: pointer;
+  color: #6e63dd;
+  transform:  scale(1.1);
+  transition: 0.7s;
+}
+
+@media(max-width: 814px){
+  .btn button{
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn button{
+    padding: 12px 10px;
+  }
+}
